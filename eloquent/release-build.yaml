@@ -6,17 +6,17 @@ abi_incompatibility_assumed: true
 build_environment_variables:
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 
-jenkins_binary_job_priority: 80
+jenkins_binary_job_priority: 79
 jenkins_binary_job_timeout: 120
-jenkins_source_job_priority: 76
+jenkins_source_job_priority: 75
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - steven+build.ros2.org@openrobotics.org
+  - michael+build.ros2.org@openrobotics.org
   - ros2-buildfarm-dashing@googlegroups.com
   maintainers: true
 sync:
-  package_count: 180
+  package_count: 1
 repositories:
   keys:
   - |
